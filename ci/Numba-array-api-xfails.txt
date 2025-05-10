@@ -71,7 +71,10 @@ array_api_tests/test_has_names.py::test_has_names[fft-rfft]
 array_api_tests/test_has_names.py::test_has_names[fft-irfft]
 array_api_tests/test_has_names.py::test_has_names[fft-rfftn]
 array_api_tests/test_has_names.py::test_has_names[fft-irfftn]
-array_api_tests/test_statistical_functions.py::test_sum
-array_api_tests/test_operators_and_elementwise_functions.py::test_floor_divide[__ifloordiv__(x1, x2)]
+
+
 array_api_tests/test_creation_functions.py::test_empty_like
 array_api_tests/test_data_type_functions.py::test_finfo[complex64]
+
+
+array_api_tests/test_manipulation_functions.py::test_squeeze
