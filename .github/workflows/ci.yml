@@ -110,6 +110,8 @@ jobs:
     - name: Install build and test dependencies from PyPI
       run: |
         pip install pytest-xdist -r "$ARRAY_API_TESTS_DIR/requirements.txt"
+        echo "Hello hypothesis"
+        pip list | grep hypothesis
     - name: Build and install Sparse
       run: |
         pip install -U setuptools wheel
